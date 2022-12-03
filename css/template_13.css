@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto',sans-serif;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+@keyframes show {
+
+    0%{
+        height: 0%;
+    }
+
+    25%{
+        height: 25%;
+    }
+
+    50%{
+        height: 50%;
+    }
+
+    75%{
+        height: 75%;
+    }
+
+    100%{
+        height: 100%;
+    }
+    
+}
+
+#home{
+    width: 100%;
+    height: 75px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+#home .navbar .nav-content ul{
+    width: 100%;
+    margin: 0%;
+}
+
+#home .navbar .nav-content ul li{
+    width: 100%;
+}
+
+#home .navbar .nav-content ul li a{
+    width: 100%;
+    text-align: center;
+}
+
+#home .navbar .nav-content ul li a{
+    font-family: 'Roboto',sans-serif;
+}
+
+
+#container{
+    position: relative;
+    width: 100%;
+    height: 650px;
+}
+
+#container .content{
+    position: inherit;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(159, 157, 157, 0.107);
+}
+
+#container .content img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#container .content div{
+    position: inherit;
+    width: 100%;
+    height: 33%;
+}
+
+#container .content div h1{
+    width: 100%;
+    margin: auto 5%;
+    font-size: 68px;
+}
+
+#container .content div p{
+    width: 100%;
+    margin: auto 5%;
+}
+
+#container .content div button{
+    position: inherit;
+    width: 200px;
+    margin-left: 5%;
+    border-color: #614124;
+    transition: 0.75s;
+}
+
+#container .content div button:hover, #container .content div button:focus{
+    background-color: #614124;
+    color: white;
+}
+
+#areas{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(39, 39, 39);
+}
+
+#areas .container{
+    position: inherit;
+    width: 100%;
+    height: 100%;
+}
+
+#areas .container div{
+    position: inherit;
+    width: 100%;
+    height: 100%;
+}
+
+#areas .container div div{
+    position: inherit;
+    width: 100%;
+    height: auto;
+}
+
+#areas .container div div h1{
+    width: 100%;
+    margin: auto;
+    padding: 3%;
+    color: white;
+}
+
+#areas .container div div p{
+    color: white;
+    padding: 5%;
+}
+
+#areas .container div div button{
+    color: white;
+    margin: auto 4%;
+    border: 1px solid #614124;
+    transition: 0.75s;
+}
+
+#areas .container div div button:focus{
+    background-color: #614124;
+    color: white;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #614124;
+}
+
+.sectors{
+    padding-left: 6%;
+}
+
+.sectors button{
+    width: 200px;
+    margin: 0%;
+}
+
+#clients{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #1B2430;
+}
+
+#clients div{
+    position: inherit;
+    width: 100%;
+    height: auto;
+}
+
+#clients div h1{
+    color: white;
+    padding: 2%;
+}
+
+#clients .container{
+    position: inherit;
+    width: 100%;
+    height: 90%;
+}
+
+#clients .container .customers{
+    position: inherit;
+    width: 30%;
+    height: 95%;
+    margin: auto 1%;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.75s;
+    box-sizing: border-box;
+}
+
+#clients .container .customers p{
+    text-align: center;
+    line-height: 40px;
+    margin: 2% auto;
+}
+
+#clients .container .customers div{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border-bottom-left-radius: 50px;
+    background: linear-gradient(to right, white,#DCD7C9);
+    display: none;
+    animation-name: show;
+    animation-timing-function: linear;
+    animation-duration: 0.75s;
+    animation-iteration-count: 1;
+}
+
+#clients .container .customers div p{
+    text-align: center;
+    margin: 2% auto;
+}
+
+#clients .container .customers h3{
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 4% auto;
+    font-style: oblique;
+    text-align: right;
+}
+
+#clients .container .customers:hover{
+    transform: scale(1.04);
+    border-bottom-left-radius: 50px;
+    box-shadow: 0px 0px 10px 2px rgb(58, 58, 58);
+}
+
+#clients .container .customers:hover div{
+    display: flex;
+}
+
+#contact{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: #EAF6F6;
+}
+
+#contact form{
+    position: inherit;
+    width: 100%;
+    height: 100%;
+}
+
+#contact div{
+    position: inherit;
+    width: 100%;
+    height: auto;
+    margin: 2% auto;
+}
+
+#contact div input{
+    position: inherit;
+    width: 500px;
+    text-align: center;
+    transition: 0.75s;
+}
+
+#contact div input:focus, #contact div textarea:focus{
+    box-shadow: 0px 0px 10px 2px rgb(39, 39, 39);
+}
+
+#contact div textarea{
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    background-color: transparent;
+}
+
+#contact div button{
+    width: 250px;
+    border: 1px solid #614124;
+}
+
+#contact div button:focus{
+    background-color: #614124;
+    color: white;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(39, 39, 39);
+}
+
+footer p{
+    position: relative;
+    color: white;
+}
+
+footer ul{
+    width: 100%;
+    margin: 1% auto;
+}
+
+footer ul li{
+    width: 100%;
+    list-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}

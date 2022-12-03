@@ -1,0 +1,79 @@
+/*
+Google Font Linkage
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#panel{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#panel .container{
+    position: relative;
+    width: 100vw;
+    height: 20vh;
+}
+
+#panel .main{
+    height: 80vh;
+}
+
+#panel .container h1{
+    font-family: 'Oxygen', serif;
+    text-align: center;
+}
+
+#panel .main .content{
+    position: relative;
+    width: 45vw;
+    height: 45vh;
+    margin: auto 2%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px #F9D371;
+}
+
+#panel .main .content div{
+    position: inherit;
+}
+
+#panel .main .content .con-content{
+    width: 80%;
+    height: 100%;
+    background-color: #2C272E;
+}
+
+#panel .main .content .con-content h3{
+    color: white;
+    text-align: center;
+    font-family: 'Oxygen',serif;
+    margin: 2% auto;
+}
+
+#panel .main .content .con-content p{
+    color: white;
+    text-align: center;
+    margin: 2% auto;
+    line-height: 30px;
+    font-family: 'Oxygen',serif;
+}
+
+#panel .main .content .sm-container-x button{
+    width: 100px;
+    border: 1px solid #1B1A17;
+    color: #1B1A17;
+    transition: 0.75s;
+    font-family: 'Oxygen',sans-serif;
+}
+
+#panel .main .content .sm-container-x button:focus{
+    background-color: #1B1A17;
+    color: white;
+}
+

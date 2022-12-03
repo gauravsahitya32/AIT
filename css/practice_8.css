@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Bree Serif',serif;
+}
+
+@keyframes blur{
+    25%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wri-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cursor{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2px;
+    height: 50px;
+    background-color: black;
+    animation-name: blur;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto',sans-serif;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+#home{
+    width: 100%;
+    height: 75px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+#home .navbar .nav-content ul{
+    width: 100%;
+    margin: 0%;
+}
+
+#home .navbar .nav-content ul li{
+    width: 100%;
+}
+
+#home .navbar .nav-content ul li a{
+    width: 100%;
+    text-align: center;
+}
+
+#home .navbar .nav-content ul li a{
+    font-family: 'Roboto',sans-serif;
+}
+
+#messages{
+    position: relative;
+    width: 100%;
+    height: 425px;
+}
+
+#messages div{
+    position: inherit;
+    width: 100%;
+    height: 10%;
+    margin: 1% auto;
+}
+
+#messages .content{
+    position: inherit;
+    width: 100%;
+    height: 90%;
+    overflow-y: auto;
+}
+
+
+#messages .content table{
+    position: inherit;
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+}
+
+
+#messages .content table tr{
+    width: 100%;
+}
+
+#messages .content table tr th{
+    background-color: #A10035;
+    color: white;
+}
+
+#messages .content table tr td{
+    background: linear-gradient(to right, #F47C7C,#F47C7C);
+}
+
+
+#messages .content table, th,  td{
+    text-align: center;
+    padding: 12px;
+}
+
+#messages .content table tr td a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(39, 39, 39);
+}
+
+footer p{
+    position: relative;
+    color: white;
+}
+
+footer ul{
+    width: 100%;
+    margin: 1% auto;
+}
+
+footer ul li{
+    width: 100%;
+    list-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}

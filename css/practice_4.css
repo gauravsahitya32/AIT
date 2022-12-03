@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(78, 83, 50);
+}
+
+
+.paras{
+    display: none;
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+}
+
+
+.container:hover{
+    backface-visibility: hidden;
+}
+
+.container:hover .paras{
+    display: block;
+    color: black;
+}

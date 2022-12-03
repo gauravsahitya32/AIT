@@ -1,0 +1,124 @@
+.mx-2{
+    margin: 0px 2px;
+}
+
+.my-2{
+    margin: 2px 0px;
+}
+
+.h-primary{
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.h-tertiary{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.paras{
+    font-size: 18px;
+}
+
+.sm-container-x{
+    width: 20%;
+}
+
+.sm-container-y{
+    height: 20%;
+}
+
+.curve-around-left{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.curve-around-right{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.curve-around-top-left{
+    border-top-left-radius: 10px;
+}
+
+.curve-around-top-right{
+    border-top-right-radius: 10px;
+}
+
+.curve-around-bottom-left{
+    border-bottom-left-radius: 10px;
+}
+
+.curve-around-bottom-right{
+    border-bottom-right-radius: 10px;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.success-btn{
+    border: 1px solid #446A46;
+}
+
+.success-btn:hover, .success-btn:focus{
+    background-color: #446A46;
+    color: white;
+}
+
+.danger-btn{
+    border: 1px solid #EB1D36;
+}
+
+.danger-btn-sec {
+    border: 1px solid #EB1D36;
+    color: #EB1D36;
+}
+
+.danger-btn:hover, .danger-btn:focus{
+    background-color: #EB1D36;
+    color: white;
+}
+
+.danger-btn-sec:hover, .danger-btn-sec:focus{
+    background-color: #EB1D36;
+    color: white;
+}
+
+.h-secondary{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.sm-paras{
+    font-size: 15px;
+}
+
+
+.inps{
+    width: 250px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #1B2430;
+    outline: none;
+    font-size: 18px;
+    padding: 2px;
+    text-align: center;
+}
+
+.align-to-left{
+    align-self: flex-end;
+}
+
+.align-to-right{
+    align-self: flex-start;
+}

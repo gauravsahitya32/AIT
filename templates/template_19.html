@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Inventory | Login Portal</title>
+
+    <link rel="stylesheet" href="../css/alignment.css">
+    <link rel="stylesheet" href="../css/template_20.css">
+    <link rel="stylesheet" href="../css/util.css">
+</head>
+
+<body>
+
+    <section id="navbar" class="align">
+
+        <div class="align container">
+        
+            <button class="btn" type="button" id="add">Add new book</button>
+
+        </div>
+
+        <div class="align container" id="msg">
+
+            <h1 class="h-primary">INDIUM BOOK STORE</h1>
+
+        </div>
+
+        <div class="align container">
+
+            <button class="btn" type="button" id="logout">Log out</button>
+
+        </div>
+
+    </section>
+
+    <section class="align-def align-ver" id="books">
+        
+        <table>
+
+            <tr>
+                <th>Book Name</th>
+                <th>Author Name</th>
+                <th>Price</th>
+                <th>Book Edition</th>
+                <th>ISBN</th>
+                <th>No. of copies</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+
+            <tr>
+                <td>Pro ASP.NET 4.5 in C#</td>
+                <td>Adam Freeman Mathew Macdonald</td>
+                <td>375.00</td>
+                <td>5th</td>
+                <td>978-81-322-1475-5</td>
+                <td>100</td>
+                <td>In stock</td>
+                <td>
+                    <div class="panel align-sec">
+                        <a href="#">Delete</a>
+                        <a href="#">More</a>
+                    </div>
+                </td>
+            </tr>
+
+            
+
+        </table>
+
+
+        <dialog class="align align-ver" id="addBook">
+
+            <form action="#" class="align align-ver" method="post">
+                <input type="text" class="inps" placeholder="Book Name" name="bookName" required>
+                <input type="text" class="inps" placeholder="Author Name" name="authorName" required>
+                <input type="text" class="inps" placeholder="Book Price" name="bookPrice" required>
+                <input type="text" class="inps" placeholder="Book Edition" name="bookEdition" required>
+                <input type="text" class="inps" placeholder="Book ISBN" name="isbn" required>
+                
+                <div class="container align-sec">
+                    <input type="number" class="inps" placeholder="Number of copies" name="copies" required>
+                    <input type="submit" class="inps success-btn" value="Add" name="addBtn">
+                    <input type="button" class="inps danger-btn" value="Close" id="closeBtn">
+                </div>
+            </form>
+
+        </dialog>
+    
+    </section>
+
+    <script src="../js/template_19.js"></script>
+
+</body>
+</html>

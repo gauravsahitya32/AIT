@@ -1,0 +1,62 @@
+.active-link{
+    background-color: whitesmoke;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+#navbar{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 74px;
+    z-index: 1;
+}
+
+#navbar div{
+    position: relative;
+    height: 100%;
+    background-color: #4C3A51;
+}
+
+#navbar .nav-brand{
+    width: 35%;
+}
+
+#navbar .nav-content{
+    width: 65%;
+}
+
+#navbar .nav-brand h1{
+    color: whitesmoke;
+    text-shadow: 5px 2px black, 0px 5px #2A0944;
+}
+
+#navbar .nav-content ul{
+    position: inherit;
+    width: 100%;
+    height: 100%;
+}
+
+#navbar .nav-content ul li{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+#navbar .nav-content ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.75s;
+    outline: none;
+}
+
+#navbar .nav-content ul .active-link a{
+    color: #4C3A51;
+}
+
+#navbar .nav-content ul li a:hover{
+    transform: scale(1.02);
+    font-weight: bold;
+}

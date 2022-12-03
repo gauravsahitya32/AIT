@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.active-link{
+    background-color: whitesmoke;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+#navbar{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 15vh;
+    z-index: 1;
+}
+
+#navbar div{
+    position: relative;
+    height: 100%;
+    background-color: #4C3A51;
+}
+
+#navbar .nav-brand{
+    width: 35%;
+}
+
+#navbar .nav-content{
+    width: 65%;
+}
+
+#navbar .nav-brand h1{
+    color: whitesmoke;
+    text-shadow: 5px 2px black, 0px 5px #2A0944;
+}
+
+#navbar .nav-content ul{
+    position: inherit;
+    width: 100%;
+    height: 100%;
+}
+
+#navbar .nav-content ul li{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+#navbar .nav-content ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.75s;
+    outline: none;
+}
+
+#navbar .nav-content ul .active-link a{
+    color: #4C3A51;
+}
+
+#navbar .nav-content ul li a:hover{
+    transform: scale(1.02);
+    font-weight: bold;
+}
+
+#content{
+    width: 100vw;
+    height: 70vh;
+}
+
+#content .search-bar{
+    position: relative;
+    width: 100%;
+    height: 10%;
+    margin: 1% auto;
+}
+
+#content .search-bar form{
+    position: inherit;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#content .search-bar form input{
+    margin: auto 1%;
+}
+
+#content #notes{
+    position:relative;
+    width: 100%;
+    height: 89%;
+    overflow-y: auto;
+}
+
+#content #notes .container{
+    position: inherit;
+    width: 75%;
+    min-height: 75%;
+    box-shadow: 0px 0px 10px 1px #2A0944;
+    margin: 1% auto;
+    border-radius: 10px;
+}
+
+#content #notes .container div{
+    position: inherit;
+    width: 100%;
+}
+
+#content #notes .container .con-header{
+    height: 20%;
+}
+
+#content #notes .container .con-header h2{
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+#content #notes .container .con-body{
+    height: 60%;
+}
+
+#content #notes .container .con-body p{
+    padding: 5px;
+    text-align: justify;
+}
+
+#content #notes .container .con-body p span{
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#content #notes .container .con-footer{
+    height: 20%;
+    background-color: #E9D5DA;
+}
+
+#content #notes .container .con-footer p span{
+    font-weight: bold;
+    font-style: oblique;
+}
+
+#content #notes .container .con-footer a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+}
+
+#content .search-bar form input[type='submit']{
+    width: 150px;
+}
+
+footer{
+    width: 100vw;
+    height: 15vh;
+    background-color: #000000;
+}
+
+footer p{
+    color: white;
+    margin: 1% auto;
+    text-align: center;
+    font-family: 'PT Sans',sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+footer p img{
+    width: 16px;
+    height: 16px;
+    margin: -2px auto;
+}
+
+footer div{
+    width: 100%;
+    margin: 5px auto;
+}
+
+footer div a img{
+    width: 32px;
+    height: 32px;
+    filter: invert(100%);
+}

@@ -1,0 +1,127 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Bree Serif', serif;
+}
+
+@keyframes move {
+    0% {
+        top: 127px;
+        left: 143px;
+    }
+    25% {
+        top: 127px;
+        left: 1080px;
+    }
+    50% {
+        top: 500px;
+        left: 1080px;
+    }
+    75% {
+        top: 500px;
+        left: 143px;
+    }
+    100% {
+        top: 127px;
+        left: 143px;
+    }
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.align-ver {
+    flex-direction: column;
+}
+
+.controls {
+    position: relative;
+    width: 1000px;
+    height: 100px;
+}
+
+.action-panel {
+    width: 50%;
+    height: 100px;
+}
+
+.main-panel {
+    width: 2000px;
+}
+
+.paras {
+    font-size: 20px;
+    margin: 2px 5px;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #082032;
+    font-size: 18px;
+    text-align: center;
+    transition: 1s;
+    box-sizing: border-box;
+    margin: auto 20px;
+    border-radius: 10px;
+}
+
+.btn:focus {
+    transform: scale(1.05);
+    background-color: #082032;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.sm-btn {
+    width: 100px;
+    height: 40px;
+}
+
+.screen {
+    width: 1000px;
+    height: 500px;
+    margin: 2% auto;
+    background-color: #FDE49C;
+    border-radius: 4px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#target {
+    position: absolute;
+    top: 127px;
+    left: 143px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: maroon;
+    animation-name: move;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#an-target {
+    position: absolute;
+    top: 150px;
+    left: 143px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: maroon;
+    animation-name: move;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}

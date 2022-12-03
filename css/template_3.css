@@ -1,0 +1,468 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Bree Serif',serif;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.align-ver{
+    flex-direction: column;
+}
+
+.sp-align{
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    z-index:1;
+}
+
+.navbar ul{
+    width: 100%;
+    margin: 1% auto;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 1px 2%;
+}
+
+.link{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+#home::before{
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: url('../images/burger.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+
+#home{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(1, 1, 1,0.77);
+}
+
+.h-secondary{
+    width: 100%;
+    font-size: 65px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+
+#home .h-primary{
+    width: 100%;
+    font-size: 120px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+
+#home span{
+    color: #DA0037;
+}
+
+#home .btn{
+    width: 200px;
+    height: 50px;
+    background-color: #DA0037;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    margin: 2% auto;
+    transition: 1s;
+}
+
+#home .btn-lg{
+    width: 300px;
+    height: 75px;
+}
+
+#home .btn:focus{
+    border: 2px solid white;
+    background-color: transparent;
+    transform: scale(1.05);
+}
+
+#about::before{
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: url('../images/food_about.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+#about{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(1, 1, 1,0.77);
+}
+
+#about .paras{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin: 2% auto;
+}
+
+#about span{
+    font-weight: bolder;
+}
+
+#offers::before{
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: url('../images/food-offer.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+
+#offers{
+    position: relative;
+    width: 100%;
+    height: 900px;
+    background-color: rgb(1, 1, 1,0.77);
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+}
+
+.xl-container{
+    height: 1200px;
+}
+
+.content{
+    width: 47%;
+    height: 790px;
+    margin: 1% 4px;
+    border-radius: 10px;
+}
+
+.pri-content{
+    background-color: white;
+}
+
+.h-tertiary{
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.btn-container{
+    width: 100%;
+    height: 100px;
+    margin: 1% auto;
+}
+
+.btn{
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid gainsboro;
+    outline: none;
+    color: #716F81;
+    font-size: 18px;
+    margin: 1% auto;
+    background-color: transparent;
+}
+
+.sm-btn{
+    width: 110px;
+}
+
+.paras{
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+.price-tag{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-right: 38%;
+    margin-left: 4%;
+}
+
+.pri-btn{
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+}
+
+.sub-content{
+    width: 100%;
+    height: 400px;
+}
+
+.sub-con-content{
+    width: 49%;
+    height: 390px;
+    margin: auto 1%;
+    background-color: #FAF3F3;
+    border-radius: 10px;
+}
+
+.xl-sub-con-content{
+    height: 500px;
+}
+
+.h-tetra{
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.sp-btn{
+    border: none;
+    outline: none;
+    background-color: #DA0037;
+    color: white;
+    margin: 2% auto;
+}
+
+.bn-link{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 1% auto;
+}
+
+
+#menu::before{
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: url('../images/food_menu.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+#menu{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(1, 1, 1,0.77);
+}
+
+.sp-para{
+    color: white;
+    font-size: 25px;
+    margin: 4% auto;
+    text-align: center;
+}
+
+#menu .btn{
+    width: 200px;
+    height: 50px;
+    background-color: #DA0037;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    margin: 2% auto;
+    transition: 1s;
+}
+
+#menu .btn-lg{
+    width: 300px;
+    height: 75px;
+}
+
+#menu .btn:focus{
+    border: 2px solid white;
+    background-color: transparent;
+    transform: scale(1.05);
+}
+
+#others{
+    position: relative;
+    width: 100%;
+    height: 1200px;
+}
+
+.cm-heading{
+    color: black;
+}
+
+#others .btn{
+    width: 110px;
+    height: 50px;
+    background-color: #DA0037;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    margin: 2% auto;
+    transition: 1s;
+}
+
+.imgs{
+    width: 192px;
+    height: 128px;
+}
+
+.sp-img{
+    width: 276px;
+    height: 200px;
+    margin: 1% auto;
+}
+
+
+#clients{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+}
+
+.sp-content{
+    width: 49%;
+    height: 1000px;
+}
+
+.client-imgs{
+    width: 608px;
+    height: 882px;
+}
+
+
+#clients .paras{
+    word-spacing: 10px;
+    margin: 4% auto;
+}
+
+
+#clients .h-secondary{
+    padding-top: 10%;
+}
+
+.name-plate{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+#contact{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.sm-container{
+    position: relative;
+    width: 32%;
+    height: 300px;
+    margin: auto 1%;
+}
+
+#contact .paras{
+    margin: 2% auto;
+}
+
+.icn-container{
+    width: 100%;
+    height: 50px;
+    margin: 4% auto;
+}
+
+.ico{
+    width: 32px;
+    height: 32px;
+    margin: auto 2%;
+    padding-top: 2%;
+}
+
+.contact-us{
+    width: 100%;
+    height: 100%;
+    margin: 2%;
+}
+
+.contact-us .paras{
+    padding-top: 2%;
+}
+
+.inps{
+    width: 350px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    text-align: center;
+    background-color: gainsboro;
+    margin: 2% auto;
+    font-size: 18px;
+    transition: 1s;
+}
+
+.inps:focus{
+    box-shadow: 0px 0px 10px 4px gainsboro;
+}
+
+.sm-container .btn{
+    width: 350px;
+    height: 50px;
+    background-color: #DA0037;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    margin: 2% auto 6% auto;
+    transition: 1s;
+}

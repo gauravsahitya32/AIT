@@ -1,0 +1,426 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Bree Serif',serif;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.align-ver{
+    flex-direction: column;
+}
+
+#home{
+    position: relative;
+    width: 100%;
+    height: 601px;
+}
+
+.navbar{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+    background-color: white;
+}
+
+.brand{
+    width: 25%;
+    height: 70px;
+}
+
+.nav-content{
+    width: 99%;
+    height: 70px;
+    margin: auto 1%;
+}
+
+ul{
+    width: 100%;
+    margin-left: 38%;
+}
+
+ul li{
+    width: 100%;
+    list-style: none;
+    padding: 3%;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.container{
+    width: 100%;
+    height: 600px;
+}
+
+.cont-content{
+    width: 49%;
+    height: 600px;
+}
+
+#home .imgs{
+    height: 550px;
+}
+
+#home .h-primary{
+    font-size: 38px;
+    font-weight: bolder;
+    color: black;
+    width: 75%;
+}
+
+#home .paras{
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    margin: 6% auto;
+}
+
+#home .btn{
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: #22577A;
+    color: white;
+    border-radius: 10px;
+    transition: 1s;
+    box-sizing: border-box;
+}
+
+#home .btn:focus{
+    transform: scale(1.05);
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    color: #22577A;
+}
+
+#services{
+    width: 100%;
+    height: 400px;
+}
+
+#services .container{
+    width: 100%;
+    height: 400px;
+}
+
+#services .container .content{
+    width: 23%;
+    height: 250px;
+    margin: auto 2%;
+}
+
+.icns{
+    width: 64px;
+    height: 64px;
+}
+
+#services .h-tertiary{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#services .paras{
+    font-size: 18px;
+    text-align: center;
+    margin: 5% auto;
+}
+
+
+#details{
+    width: 100%;
+    height: 1000px;
+}
+
+#details .container{
+    width: 100%;
+    height: 500px;
+}
+
+#details .container .cont-content{
+    width: 50%;
+    height: 500px;
+}
+
+.h-primary{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: justify;
+}
+
+.paras{
+    font-size: 20px;
+    text-align: justify;
+    margin: 5% auto;
+}
+
+#pricing{
+    width: 100%;
+    height: 600px;
+    background-color: #E8F6EF;
+}
+
+#pricing .container{
+    width: 100%;
+    height: 800px;
+}
+
+#pricing .container .cont-content{
+    width: 33%;
+    height: 500px;
+    margin: auto 1%;
+}
+
+.active{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.h-tertiary{
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+#pricing .container .h-primary{
+    font-size: 65px;
+    font-weight: bolder;
+    margin: 4% auto;
+}
+
+#pricing .container .paras{
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+}
+
+#pricing .btn{
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: #22577A;
+    color: white;
+    border-radius: 10px;
+    transition: 1s;
+    box-sizing: border-box;
+}
+
+#pricing .btn:focus{
+    transform: scale(1.05);
+    border: none;
+    outline: none;
+    background-color: #D8E3E7;
+    color: #22577A;
+}
+
+
+#subscribe{
+    width: 100%;
+    height: 532px;
+}
+
+.subscription{
+    margin-top: 3%;
+    width: 100%;
+    height: 100px;
+}
+
+.inps{
+    width: 500px;
+    height: 50px;
+    border: 1px solid gray;
+    outline: none;
+    color: gray;
+    border-radius: 10px;
+    background-color: transparent;
+    text-align: center;
+    transition: 1s;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin: auto 2%;
+}
+
+.inps:focus{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.199);
+}
+
+#subscribe .btn{
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 10px;
+    transition: 1s;
+    box-sizing: border-box;
+}
+
+#subscribe .btn:focus{
+    transform: scale(1.05);
+    border: none;
+    outline: none;
+    background-color: rgba(102, 51, 153, 0.651);
+    color: white;
+}
+
+#news{
+    width: 100%;
+    height: 550px;
+}
+
+#news .container{
+    width: 100%;
+    height: 800px;
+}
+
+#news .container .cont-content{
+    position: relative;
+    width: 33%;
+    height: 490px;
+    margin: auto 1%;
+    box-sizing: border-box;
+    transition: 1s;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+#news1::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: url('../images/laptop.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+#news2::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: url('../images/technology.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+#news3::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: url('../images/gallery.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.hyper-content{
+    width: 100%;
+    height: 235px;
+    transition: 1s;
+}
+
+#news1{
+    position: relative;
+}
+
+#news2{
+    position: relative;
+}
+
+#news3{
+    position: relative;
+}
+
+.text-content{
+    width: 100%;
+    height: 235px;
+}
+
+#news .container .cont-content:hover #news1{
+    background-color: rgba(137, 43, 226, 0.562);
+}
+
+#news .container .cont-content:hover #news2{
+    background-color: rgba(137, 43, 226, 0.562);
+}
+
+#news .container .cont-content:hover #news3{
+    background-color: rgba(137, 43, 226, 0.562);
+}
+
+#news .imgs{
+    display: none;
+}
+
+#news a{
+    text-decoration: none;
+}
+
+#news .paras{
+    font-size: 15px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#news .container .cont-content:hover .imgs{
+    display: block;
+}
+
+#news .cont-footer{
+    width: 100%;
+    height: 70px;
+    background-color: whitesmoke;
+}
+
+#news .link{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: normal;
+    color: black;
+}
+
+.left{
+    margin-right: 70%;
+}
+
+.nav-icns{
+    width: 16px;
+    height: 16px;
+}
+
+#news .cont-content:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.24);
+}

@@ -1,0 +1,270 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Bree Serif';
+}
+
+.align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.align-ver{
+    flex-direction: column;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: #0F044C;
+}
+
+.transparency{
+    background-color: transparent;
+}
+
+.brand{
+    width: 38%;
+    height: 70px;
+    margin: 10px 20% 5px 2%;
+}
+
+.nav-content{
+    width: 40%;
+    height: 70px;
+    margin: 10px 0px 5px 0px;
+}
+
+.navbar .h-primary{
+    font-size: 45px;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.nav-content ul{
+    width: 100%;
+    margin-right: 10%;
+}
+
+.nav-content li{
+    width: 100%;
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 10px 15px;
+}
+
+
+#blogs{
+    width: 100%;
+    height: 500px;
+}
+
+
+#blogs .content{
+    width: 19%;
+    height: 500px;
+}
+
+#blogs .big-container{
+    width: 50%;
+}
+
+
+#home::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    content: "";
+    background: url('../images/Notebook.webp');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+#home{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.content{
+    width: 50%;
+    height: 500px;
+}
+
+.drop-blur{
+    background-color: rgb(255, 255, 255,0.4);
+}
+
+.h-primary{
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 2% 1px;
+}
+
+.paras{
+    font-size: 20px;
+    text-align: center;
+}
+
+#blogs{
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+#blogs .content{
+    width: 10%;
+    height: 500px;
+}
+
+#blogs .big-container{
+    width: 80%;
+    height: 800px;
+}
+
+.blog-header{
+    position: relative;
+    width: 100%;
+    height: 10%;
+}
+
+.blog-heading{
+    width: 20%;
+    height: 50px;
+    margin-right: 50%;
+}
+
+.blog-search-bar{
+    width: 50%;
+    height: 50px;
+}
+
+.h-tertiary{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.blog-btn-grps{
+    height: 50px;
+    width: 65%;
+    margin-left: 2%;
+}
+
+.imgs{
+    width: 32px;
+    height: 32px;
+}
+
+
+.btn{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #0F044C;
+    color: #0F044C;
+    font-size: 18px;
+    outline: none;
+}
+
+.blog-btn-grps .btn{
+    margin: 1% 5px;
+    cursor: pointer;
+}
+
+.sm-btn{
+    width: 50px;
+}
+
+.blog-content{
+    width: 100%;
+    height: 400px;
+    margin: 20px auto 10px auto;
+}
+
+.img-con{
+    background: url('../images/blog-content.webp');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.blog-content .container{
+    width: 50%;
+    height: 400px;
+}
+
+.blog-content .h-tertiary{
+    padding: 30px 15px;
+}
+
+
+#contact{
+    position: relative;
+    width: 100%;
+    height: 1100px;
+    background-color: #0F044C;
+}
+
+
+#contact .h-primary{
+    color: whitesmoke;
+}
+
+#contact .paras{
+    color: whitesmoke;
+}
+
+.inps{
+    width: 500px;
+    height: 50px;
+    border: 2px solid whitesmoke;
+    font-size: 18px;
+    text-align: center;
+    margin: 2% auto;
+    outline: none;
+    color: whitesmoke;
+}
+
+.sp-btn{
+    width: 500px;
+    background-color: whitesmoke;
+}
+
+.blank-con{
+    width: 100%;
+    height: 200px;
+}
+
+#contact .container{
+    width: 100%;
+    height: 400px;
+}
+
+.con-container{
+    width: 50%;
+    height: 550px;
+}
+
+.rich-inp{
+    height: 100px;
+    background-color: transparent;
+}
+
+
+#maps{
+    width: 100%;
+    height: 500px;
+}

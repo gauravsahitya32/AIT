@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes - About Us</title>
+
+    <link rel="stylesheet" href="../css/alignment.css">
+    <link rel="stylesheet" href="../css/util.css">
+    <link rel="stylesheet" href="../css/note.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+</head>
+
+<body>
+
+
+    <section class="align" id="navbar">
+
+        <div class="align nav-brand">
+            <h1 class="h-primary">Indium Notes</h1>
+        </div>
+
+        <div class="align nav-content">
+            <ul class="align">
+                <li class="align"><a href="note.html">Home</a></li>
+                <li class="align active-link"><a href="about.html">About Us</a></li>
+                <li class="align"><a href="account.html">Create Account</a></li>
+                <li class="align"><a href="#">Login</a></li>
+                <li class="align"><a href="#">Add a new note</a></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section class="align align-ver" id="about"></section>
+
+    <section class="align" id="contact">
+
+        <div id="profile">
+
+        </div>
+
+        <div class="align align-ver">
+
+            <div class="align-items-def heading">
+                <h1 class="h-primary"> <span>A</span>bout Me</h1>
+            </div>
+
+            <div class="align-items-def abt-content">
+
+                <p class="paras">My name is Gaurav Sahitya. I recently completed my graduation from <span> Guru Nanak
+                        Dev Engineering College, Ludhiana, Punjab - 141006.</span> I have done <span> BTech in
+                        Electronics and Communication Engineering</span> and has secured 70% in it. I have made this
+                    site called <span>'Notes'</span>. Using this site users can add their important task which they want
+                    to do or something which they want to keep, in the form of notes. <span>Users can even add
+                        multimedia in their notes. After adding the notes users can see them in one place.</span></p>
+
+            </div>
+
+            <div class="align-items-def btn-grp">
+                <button type="button" class="btn" id="connect">Connect</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="align align-ver" id="cnt-form">
+
+        <div class="align align-ver heading">
+            <h1 class="h-primary"><span>W</span>rite Us</h1>
+        </div>
+
+        <div class="align align-ver details">
+
+            <form action="'http://127.0.0.1:8081/contact/" method="post" class="align align-ver" id="contact-form">
+
+                <input type="text" id="name" class="inps" name="name" placeholder="Enter your name" required
+                    pattern="^[A-Za-z ]{3,}$" oninvalid="this.setCustomValidity('Your name can contain only letters.')"
+                    oninput="this.setCustomValidity('')">
+
+                <input type="text" id="email" class="inps" name="email" placeholder="Enter your email address" required
+                    pattern="(^[A-Za-z0-9._]{3,})(@)([a-z]{3,})(.com|.in|.org)$"
+                    oninvalid="this.setCustomValidity('Please enter a valid email address, we only support .com, .in, .org domains as of now')"
+                    oninput="this.setCustomValidity('')">
+
+                <textarea name="message" id="message" cols="30" rows="10" class="inps"
+                    placeholder="Enter your message/query" required pattern="(^[a-zA-Z0-9._()\-,\n\t@₹ ]+$)"
+                    oninvalid="this.setCustomValidity('Please enter a valid message of yours.')"
+                    oninput="this.setCustomValidity('')"></textarea>
+
+                <input type="submit" class="inps" value="Send" id="send-button">
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <footer class="align align-ver">
+
+        <p>Copyright &copy; 2022 | All Rights Reserved | Maintained by Gaurav Sahitya | Made with <img
+                src="../images/love.png" alt="Love"> by Gaurav Sahitya</p>
+
+        <div class="align-sec">
+            <a href="#" target="_blank"><img src="../images/facebook.png" alt="Facebook"
+                    title="Connect with us on facebook"></a>
+            <a href="#" target="_blank"><img src="../images/instagram.png" alt="Instagram"
+                    title="Connect with us on instagram"></a>
+            <a href="#" target="_blank"><img src="../images/twitter.png" alt="Twitter"
+                    title="Connect with us on twitter"></a>
+            <a href="#" target="_blank"><img src="../images/mail.png" alt="GMail"
+                    title="Mail us in case of a query"></a>
+        </div>
+
+    </footer>
+
+    <script src="../js/about.js"></script>
+
+</body>
+
+</html>

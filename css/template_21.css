@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#update{
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+#update form{
+    position: relative;
+    width: 75%;
+    height: 35%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#update form input{
+    position: inherit;
+    width: 45%;
+}
+
+#update form input[type="submit"]{
+    width: 25%;
+}

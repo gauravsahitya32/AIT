@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+@keyframes move {
+
+    from{
+        top: -200px;
+    }
+
+    to{
+        top: 75px;
+    }
+    
+}
+
+@keyframes bgColorChange{
+
+    0%{
+        background-color: #06113C;
+        color: #1CD6CE;
+    }
+
+    100%{
+        background-color: #1CD6CE;
+        color: #06113C;
+    }
+
+}
+
+@keyframes textTranslate {
+    
+    from{
+        top: -20px;
+    }
+
+    to{
+        top: 0px;
+    }
+
+}
+
+#navbar{
+    width: 100%;
+    height: 74px;
+}
+
+#heading{
+    width: 100%;
+    height: 100px;
+}
+
+#heading h1{
+    font-family: 'PT Sans';
+    letter-spacing: 2px;
+}
+
+#heading h1 span{
+    font-size: 75px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: #46244C;
+    text-shadow: 2px 6px #C8F2EF;
+}
+
+#instructions{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+#instructions h2{
+    font-family: 'PT Sans';
+    letter-spacing: 1.5px;
+}
+
+#instructions h2 span{
+    font-size: 55px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: #46244C;
+    text-shadow: 2px 6px #C8F2EF;
+}
+
+#instructions .ins-container{
+    position: inherit;
+    width: 100%;
+    height: 90%;
+}
+
+#instructions .ins-container .ins-content{
+    position: inherit;
+    width: 40%;
+    height: 100%;
+    background-color: #E7F6F2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px whitesmoke;
+    transition: 0.75s;
+}
+
+#instructions .ins-container .ins-content:hover{
+    scale: 1.05;
+}
+
+#instructions .ins-container .ins-content ul{
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 21px;
+}
+
+#instructions .ins-container .ins-content ul li{
+    margin: 5px auto;
+}
+
+#instructions .cnfn{
+    width: 100%;
+    height: 10%;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+#instructions .cnfn input{
+    margin: -1px 5px -1px 0px; 
+}
+
+#instructions .cnfn a{
+    text-decoration: none;
+    margin: auto 1%;
+    font-family: 'PT Sans';
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+}
+
+
+#btns{
+    width: 100%;
+    height: 100px;
+}
+
+#btns button{
+    border: 1px solid #3F4E4F;
+    color: #3F4E4F;
+    transition: 0.75s;
+}
+
+#btns button:focus, #btns button:hover{
+    background-color: #3F4E4F;
+    color: whitesmoke;
+    box-shadow: 0px 0px 10px 4px #F2EBE9;
+}
+
+dialog{
+    position: absolute;
+    top: 80px;
+    width: 80%;
+    height: 75%;
+    margin: auto;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 10px;
+    background-color: #06113C;
+    animation-name: move;
+    animation-duration: 0.75s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+dialog .heading{
+    width: 100%;
+    height: 25%;
+}
+
+dialog .heading h2{
+    font-family: 'PT Sans';
+    color: #97BFB4;
+}
+
+dialog .heading  h2 span{
+    font-size: 55px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: #3b7f16;
+    text-shadow: 2px 2px #D5D8B5;
+}
+
+dialog form{
+    width: 100%;
+    height: 75%;
+}
+
+dialog form div{
+    width: 100%;
+    height: 25%;
+    margin: 5px auto;
+}
+
+#account .an-inp{
+    width: 350px;
+    margin: auto 5px;
+    transition: 0.75s;
+    box-sizing: border-box;
+    color: #DDDDDD;
+    border: 1px solid #DDDDDD;
+}
+
+#account .an-btn{
+    width: 250px;
+    border: 1px solid #1CD6CE;
+    color: #1CD6CE;
+    transition: 0.75s;
+}
+
+#account .an-btn:focus{
+    animation-name: bgColorChange;
+    animation-duration: 400ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    background-color: #1CD6CE;
+    color: #06113C;
+}
+
+#account form div .danger-btn-sec{
+    width: 250px;
+}
+
+#account form div .danger-btn-sec p{
+    position: relative;
+}
+
+#account form div .danger-btn-sec:focus p{
+    animation-name: textTranslate;
+    animation-timing-function: linear;
+    animation-duration: 400ms;
+    animation-iteration-count: 1;
+}
+
+#account #messageBox{
+    color: white;
+    font-size: 20px;
+}
+
+.an-inp:focus{
+    transform: scale(1.04);
+    border: 1px solid #97BFB4;
+    color: #97BFB4;
+    box-shadow: 0px 0px 10px 2px #DDDDDD;
+}

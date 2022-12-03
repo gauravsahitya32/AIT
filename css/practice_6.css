@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@keyframes load{
+    25%{
+        background-color: #595B83;
+        transform: rotate(90deg);
+        top: 0px;
+        left: 100px;
+        content: ".";
+    }
+
+    50%{
+        background-color: #333456;
+        transform: rotate(180deg);
+        top: 100px;
+        left: 100px;
+        content: "..";
+    }
+
+    75%{
+        background-color: #060930;
+        transform: rotate(270deg);
+        top: 100px;
+        left: 0px;
+        content: "...";
+    }
+
+    100%{
+        background-color: #1A1A2E; 
+        transform: rotate(360deg);
+        top: 0px;
+        left: 0px;
+        content: "....";
+    }
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+.con-container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 1% 1px;
+    background-color: #060930;
+    animation-name: load;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}

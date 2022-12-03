@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@keyframes fade{
+    0%{
+        opacity: 1;
+    }
+
+    25%{
+        opacity: 0.75;
+    }
+
+    50%{
+        opacity: 0.50;
+    }
+
+    75%{
+        opacity: 0.25;
+    }
+
+    100%{
+        opacity: 0;
+    }
+}
+
+
+section{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+.h-primary{
+    font-family: 'Bree Serif', sans-serif;
+    font-size: 68px;
+    font-weight: bolder;
+}
+
+.inps{
+    width: 500px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid rebeccapurple;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 18px;
+    transition: 0.75s;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.inps:focus{
+    transform: scale(1.04);
+    background-color: #F3F1F5;
+}
+
+::selection{
+    background-color: transparent;
+}
+
+.btn{
+    width: 500px;
+    height: 50px;
+    border: 2px solid rebeccapurple;
+    outline: none;
+    background-color: #F3F1F5;
+    margin: 20px auto;
+    border-radius: 10px;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 20px;
+    transition: 0.75s;
+    box-sizing: border-box;
+}
+
+.btn:focus{
+    transform: scale(1.04);
+    border: none;
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.cn-btn{
+    border: 2px solid red;
+}
+
+.cn-btn:focus{
+    background-color: red;
+}
+
+#error{
+    width: 500px;
+    height: 60px;
+    background-color: #FF1700;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 18px;
+    margin: 20px auto;
+    font-weight: bolder;
+    animation-name: fade;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}

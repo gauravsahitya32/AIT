@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes min-rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.container{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #262A53;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 5px #F7DAD9;
+}
+
+
+.hour{
+    position: absolute;
+    top: 41px;
+    left: 155px;
+    width: 2px;
+    height: 100px;
+    background-color: white;
+    animation-name: min-rotate;
+    animation-duration: 3600s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-origin: 0% 100%;
+}
+
+.minute{
+    position: absolute;
+    top: 41px;
+    left: 155px;
+    width: 2px;
+    height: 100px;
+    background-color: white;
+    animation-name: rotate;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-origin: 0% 100%;
+}
+
+
+#twelve{
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+
+#three{
+    position: absolute;
+    top: 125px;
+    left: 280px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+
+#six{
+    position: absolute;
+    top: 275px;
+    left: 150px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+
+#nine{
+    position: absolute;
+    top: 125px;
+    left: 5px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}

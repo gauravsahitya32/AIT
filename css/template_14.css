@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+
+#home{
+    width: 100%;
+    height: 75px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+#home .navbar .nav-content ul{
+    width: 100%;
+    margin: 0%;
+}
+
+#home .navbar .nav-content ul li{
+    width: 100%;
+}
+
+#home .navbar .nav-content ul li a{
+    width: 100%;
+    text-align: center;
+}
+
+#home .navbar .nav-content ul li a{
+    font-family: 'Roboto',sans-serif;
+}
+
+#services{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: #1B2430;
+}
+
+#services h1{
+    font-size: 68px;
+    color: white;
+}
+
+#posts{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #2C3639;
+}
+
+#posts .container{
+    width: 23%;
+    height: 85%;
+    background-color: #f7e9e2de;
+    margin: auto 1%;
+    border-radius: 10px;
+}
+
+#posts .container div{
+    position: inherit;
+    width: 100%;
+    height: auto;
+    margin: 5px auto;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+#posts .container div p{
+    font-size: 18px;
+    line-height: 30px;
+    padding: 5px;
+    text-align: justify;
+}
+
+#posts .container div a{
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.75s;
+    color: black;
+}
+
+#posts .container div a:hover{
+    transform: translateX(10px);
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(39, 39, 39);
+}
+
+footer p{
+    position: relative;
+    color: white;
+}
+
+footer ul{
+    width: 100%;
+    margin: 1% auto;
+}
+
+footer ul li{
+    width: 100%;
+    list-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}

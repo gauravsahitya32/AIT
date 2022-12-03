@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add new item</title>
+
+    <link rel="stylesheet" href="../css/alignment.css">
+    <link rel="stylesheet" href="../css/add.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/dcf9f5d1bd.js"></script>
+</head>
+<body>
+
+    <section class="align align-ver heading">
+        <h1 class="h-primary">Add new item </h1>
+    </section>
+
+    <section class="align align-ver main">
+
+        <div class="upload align align-ver">
+            <input type="file" name="uploader" id="uploader" accept="image/*">
+            <button class="btn" id="button1" type="button">Upload</button>
+        </div>
+
+
+        <div class="content align">
+            <input type="text" name="item_name" id="item_name" placeholder="Enter your item name" class="inps">
+            <input type="text" name="item_cost" id="item_cost" placeholder="Enter your item cost (in INR)" class="inps">
+            <input type="tel" name="contact" id="contact" placeholder="Enter your contact number" class="inps">
+            <input type="email" name="email" id="email" placeholder="Enter your email id" class="inps">
+        </div>
+
+
+        <div class="content align">
+            <textarea name="descp" id="descp" cols="30" rows="10" class="inps sp-inp" placeholder="Describe your item"></textarea>
+            <textarea name="address" id="address" cols="30" rows="10" class="inps sp-inp" placeholder="Enter your address"></textarea>
+        </div>
+
+        <div class="content align">
+            <button class="btn sp-btn" id="button2" type="button">Add</button>
+            <div class="align align-ver" id="message">Item Added</div>
+            <button class="btn sp-btn cn-btn" id="button3" type="button">Cancel</button>     
+        </div>
+
+    </section>
+    
+
+    <script src="../js/add.js"></script>
+
+</body>
+</html>

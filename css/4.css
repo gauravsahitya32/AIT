@@ -1,0 +1,40 @@
+@keyframes move{
+    25%{
+        top: 0px;
+        left: 1159px;
+        transform: rotate(360deg);
+    }
+
+    50%{
+        top: 480px;
+        left: 1159px;
+        transform: rotate(-360deg);
+    }
+
+    75%{
+        top: 480px;
+        left: 0px;
+        transform: rotate(360deg);
+    }
+
+    100%{
+        top: 0px;
+        left: 0px;
+        transform: rotate(-360deg);
+    }
+}
+
+
+
+.container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}

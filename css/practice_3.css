@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    outline: none;
+}
+
+.btns{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid blueviolet;
+    transition: 0.75s;
+    outline: none;
+}
+
+.btns:focus .container{
+    background-color: yellow;
+}
+
+.btns:focus{
+    border: none;
+    outline: none;
+    background-color: blueviolet;
+    color:white;
+}
